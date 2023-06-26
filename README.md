@@ -167,7 +167,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 `and…`
 Don’t forget to run `$ npm install` when you have the `package.json`
-
+***
 ## Tasks
 ### 0. Redis utils
 
