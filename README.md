@@ -208,7 +208,7 @@ bob@dylan:~$
 
 - GitHub repository: `alx-files_manager`
 - File: `utils/redis.js`
-   
+***   
 ### 1. MongoDB utils
 
 Inside the folder `utils`, create a file `db.js` that contains the class `DBClient`.
