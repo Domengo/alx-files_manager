@@ -267,7 +267,7 @@ bob@dylan:~$
 
 - GitHub repository: `alx-files_manager`
 - File: `utils/db.js`
-   
+***   
 ### 2. First API
 
 Inside `server.js`, create the Express server:
@@ -303,7 +303,7 @@ bob@dylan:~$
 
 - GitHub repository: `alx-files_manager`
 - File: `server.js, routes/index.js, controllers/AppController.js`
-   
+***   
 ### 3. Create a new user
 
 Now that we have a simple API, it’s time to add users to our database.
@@ -343,7 +343,7 @@ bob@dylan:~$
 
 - GitHub repository: `alx-files_manager`
 - File: `utils/, routes/index.js, controllers/UsersController.js`
-   
+***   
 ### 4. Authenticate a user
 
 In the file `routes/index.js`, add 3 new endpoints:
@@ -395,7 +395,7 @@ bob@dylan:~$
 
 - GitHub repository: `alx-files_manager`
 - File: `utils/, routes/index.js, controllers/UsersController.js, controllers/AuthController.js`
-   
+***   
 ### 5. First file
 
 In the file `routes/index.js`, add a new endpoint:
@@ -486,7 +486,7 @@ bob@dylan:~$
 
 - GitHub repository: `alx-files_manager`
 - File: `utils/, routes/index.js, controllers/FilesController.js`
-   
+***   
 ### 6. Get and list file
 
 In the file `routes/index.js`, add 2 new endpoints:
@@ -531,7 +531,7 @@ bob@dylan:~$
 
 - GitHub repository: `alx-files_manager`
 - File: `utils/, routes/index.js, controllers/FilesController.js`
-   
+***   
 ### 7. File publish/unpublish
 
 In the file `routes/index.js`, add 2 new endpoints:
@@ -574,7 +574,7 @@ bob@dylan:~$
 
 - GitHub repository: `alx-files_manager`
 - File: `utils/, routes/index.js, controllers/FilesController.js`
-   
+***   
 ### 8. File data
 
 In the file `routes/index.js`, add one new endpoint:
@@ -616,7 +616,7 @@ bob@dylan:~$
 
 - GitHub repository: `alx-files_manager`
 - File: `utils/, routes/index.js, controllers/FilesController.js`
-  
+***  
 ### 9. Image Thumbnails
 
 Update the endpoint `POST /files` endpoint to start a background processing for generating thumbnails for a file of type `image`:
@@ -667,7 +667,7 @@ bob@dylan:~$
 
 - GitHub repository: `alx-files_manager`
 - File: `utils/, controllers/FilesController.js, worker.js`
-
+***
 ### 10. Tests!
 
 Of course, a strong and stable project can not be good without tests.
@@ -692,7 +692,7 @@ Create tests for each endpoints:
 
 - GitHub repository: `alx-files_manager`
 - File: `tests/`
- 
+*** 
 ### 11. New user - welcome email
 
 Update the endpoint `POST /users` endpoint to start a background processing for sending a “Welcome email” to the user:
