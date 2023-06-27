@@ -1,9 +1,11 @@
 const express = require('express');
 
 const app = express();
+const port = process.env.PORT || 5000;
+const router = require('./routes/index');
 
-app.use(express.static('public'));
-const port = 5000;
+app.use(router);
+
 app.listen(port, () => {
-  console.log(`App started on port ${port}`);
+  console.log(`Listening on port ${port}`);
 });
