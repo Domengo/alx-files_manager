@@ -130,7 +130,7 @@ class FilesController {
       return res.status(401).json({ error: 'Unauthorized' });
     }
     const fileId = req.params.id;
-    const idObject = new ObjectId(fileId);
+    const idObject = new ObjectID(fileId);
     const file = dbClient.db.collection('files');
     const fileData = await file.findOne({ _id: idObject, userId: user._id });
     if (!fileData) {
